@@ -5,4 +5,13 @@ persons = person.read()
 print(persons)
 person.close()
 
-file = open("output.txt", "a+")
+status = ["live", "died"]
+personLive = [f"{random.choice(status)}"]
+
+print(personLive)
+
+output = open("output.txt", "a+")
+for line in personLive2:
+    outputs.write(line)
+    
+outputs.close
